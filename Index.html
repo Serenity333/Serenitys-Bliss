@@ -19,49 +19,41 @@
   </head>
   
   <body>
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-      <ol class = "carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active">Necklaces</li>
-        <li data-target="#myCarousel" data-slide-to="1">Bracelets</li>
-        <li data-target="#myCarousel" data-slide-to="2">Earrings</li>
-        <li data-target="#myCarousel" data-slide-to="3">Sculptures</li>
-      </ol>
-      </div>
-    
-    <div class="carousel-inner" role="listbox">
-      <div class="item active">
-        <div class="container">
-          <img src="images/Serenity.jpg">
-          <div class = "row">
-            <div class = "col-md-2"></div>
-            <div class = "col-md-2"></div>
-            <div class = "col-md-2"></div>
-          </div>
-        </div>
-         <div class="item">
-          <div class = "row">
-            <div class = "col-md-2"></div>
-            <div class = "col-md-2"></div>
-            <div class = "col-md-2"></div>
-          </div>
-         <div class="item">
-          <div class = "row">
-            <div class = "col-md-2"></div>
-            <div class = "col-md-2"></div>
-            <div class = "col-md-2"></div>
-          </div>
-         </div>
+    <!-- The scrollable area -->
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+<!-- The navbar - The <a> elements are used to jump to a section in the scrollable area -->
+<nav class="navbar navbar-inverse navbar-fixed-top">
+...
+  <ul class="nav navbar-nav">
+    <li><a href="#section1">Necklaces</a></li>
+    <li><a href="#section2">Bracelets</a></li>
+    <li><a href="#section3">Earrings</a></li>
+    <li><a href="#section4">Oddities</a></li>
+    ...
+</nav>
+
+<!-- Section 1 -->
+<div id="section1" class="container">
+  <div class="row">
+    <div class="col-md-2">
+      <h1>Section 1</h1>
     </div>
-    
-    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
+    <div class="col-md-2">
+      <p>Try to scroll this page and look at the navigation bar while scrolling!</p>
+    </div>
+  </div>
 </div>
+<div id="section2" class="container">
+  <div class="row">
+    <div class="col-md-2">
+      <h1>test</h1>
+    </div>
+  </div>
+</div>
+...
+
+</body>
   
   </html>
  
