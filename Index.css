@@ -2,6 +2,11 @@
   height: 50px;
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
+  
+.container {
+  height: 120px;
+  
+}
 
 .col-md-2 {
   height: 20px;
