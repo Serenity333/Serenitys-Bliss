@@ -10,22 +10,9 @@
   border: 5px;
 }
 
-#section1 {
-  background-size: contain;
-}
-
-#section2 {
-  background-size: contain;
-}
-
-#section3 {
-  background-size: contain;
-}
-
-#section4 {
-  background-size: contain;
-}
-#section5 {
-  background-size: contain;
+html, body {
+  background-color: #aabbcc;
+  min-height: 100%;
+  min-width: 100%;
 }
 
