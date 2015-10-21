@@ -1,5 +1,4 @@
 .li { 
-  height: 50px;
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
 }
@@ -16,8 +15,6 @@ html, body {
 }
 
 #section1 {
-  min-height: 100%;
-  min-width: 100%;
   background-image: url("images/clouds4.jpg");
 }
 
@@ -27,24 +24,21 @@ html, body {
 }
 
 #section2 {
-  min-height: 100%;
-  min-width: 100%;
+  
 }
 
 #section2 .thumbnail {
-  height: ;
+  height: 40px;
+  width: 60px;
 }
 
 #section3 {
-  min-height: 100%;
-  min-width: 100%;
+  
 }
 
 #section4 {
-  min-height: 100%;
-  min-width: 100%;
+  
 }
 #section5 {
-  min-height: 100%;
-  min-width: 100%;
+  
 }
